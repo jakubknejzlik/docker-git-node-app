@@ -15,5 +15,6 @@ WORKDIR /code
 RUN chmod +x /code/bootstrap.sh
 
 RUN npm install -g n --silent
+RUN npm install -g yarn --silent
 
 ENTRYPOINT ["./bootstrap.sh"]

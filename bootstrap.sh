@@ -8,5 +8,5 @@ echo node version: `node --version`
 git clone $GIT_URL app
 cd app
 
-npm install --production --silent
+yarn install --production --silent
 npm run $NPM_SCRIPT
