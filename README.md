@@ -11,7 +11,9 @@ Docker container for running nodejs applications. The bootstrap contains of thes
 
 ## Docker run
 
-```docker run -e "GIT_URL=https://github.com/heroku/node-js-sample" -e "PORT=8080" jakubknejzlik/docker-git-node-app```
+```
+docker run -e "GIT_URL=https://github.com/heroku/node-js-sample" -e "PORT=8080" jakubknejzlik/docker-git-node-app
+```
 
 ## Docker-compose
 
