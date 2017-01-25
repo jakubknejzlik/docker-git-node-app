@@ -12,5 +12,6 @@ if [ "$YARN_INSTALL" = "1"]; then
   yarn install --production --silent
 else
   npm install --production --silent
-end
+fi
+
 npm run $NPM_SCRIPT
