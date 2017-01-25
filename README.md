@@ -49,3 +49,12 @@ services:
       - PORT=3001
       - VIRTUAL_HOST=hello.example.com
 ```
+
+
+# Environment variables
+
+* `NODE_VERSION` - use specific version for your container (installed via `n`, default: `stable`)
+* `NPM_SCRIPT` - script name used for starting your service (default: `start`)
+* `GIT_URL` - repository to pull your source code from (example: `https://github.com/heroku/node-js-sample`)
+* `PORT` - port for running your service (default: `30000`)
+* `YARN_INSTALL` - use `yarn` to install modules (default: `0`)

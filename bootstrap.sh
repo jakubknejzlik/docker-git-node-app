@@ -8,5 +8,9 @@ echo node version: `node --version`
 git clone $GIT_URL app
 cd app
 
-yarn install --production --silent
+if [ "$YARN_INSTALL" = "1"]; then
+  yarn install --production --silent
+else
+  npm install --production --silent
+end
 npm run $NPM_SCRIPT
